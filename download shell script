@@ -1,0 +1,6 @@
+#shell script to download all the webpages 
+
+
+for ii in {1..800}; do  curl https://www.eeb.ucla.edu/seminars.php?id=$ii > $ii.html; done
+
+
